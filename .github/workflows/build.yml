@@ -28,7 +28,7 @@ jobs:
       - name: Build Electron app
         run: npm run dist
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
@@ -37,4 +37,4 @@ jobs:
           files: |
             dist/IP_Calculator_Educational_Portable.exe
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

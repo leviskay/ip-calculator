@@ -1,6 +1,13 @@
-# Nuxt Minimal Starter
+# IP Calculator для обучения
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Этот проект представляет собой образовательный инструмент для изучения сетевой адресации. Он позволяет пользователям генерировать задания, связанные с IP-адресами, масками подсетей и другими аспектами сетевой адресации. Проект интегрируется с системами управления обучением (LMS) через стандарт LTI (Learning Tools Interoperability), что позволяет использовать его в образовательных курсах.
+
+## Основные возможности
+
+- Генерация случайных IP-адресов и масок подсетей.
+- Автоматическая проверка ответов пользователей.
+- Интеграция с LMS через LTI для персонализации и передачи оценок.
+- Теоретические материалы для изучения сетевой адресации.
 
 ## Setup
 
@@ -72,4 +79,10 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Интеграция с LMS
+
+Проект поддерживает стандарт LTI, что позволяет интегрировать его в такие LMS, как Moodle или Canvas. Это обеспечивает безопасный обмен данными между LMS и инструментом, включая передачу оценок и персонализацию интерфейса.
+
+## Дополнительная информация
+
+Для получения дополнительной информации ознакомьтесь с [документацией Nuxt](https://nuxt.com/docs/getting-started/introduction) и [документацией LTI](https://www.imsglobal.org/activity/learning-tools-interoperability).
